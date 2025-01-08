@@ -23,6 +23,7 @@ const navLink = [
 
 export default function Navbar() {
     return (
+        <div className="fixed z-10 w-full bg-opacity-100 backdrop:filter backdrop-blur">
         <nav className="flex flex-row h-16 z-50 mx-3 justify-between">
             <div className="flex flex-row w-2/3 items-center">
                 <Link href={"/"} className="text-2xl lg:text-3xl font-semibold text-[--color] mx-2 lg:mx-6 navhover">Shashank Ranjan</Link>
@@ -40,5 +41,6 @@ export default function Navbar() {
                 </ul>
             </div>
         </nav>
+        </div>
     );
 }

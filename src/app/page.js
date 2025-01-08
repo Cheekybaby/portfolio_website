@@ -3,7 +3,7 @@ import Body from "@/components/Body";
 import Footer from "@/components/Footer";
 export default function Home() {
   return (
-    <>
+    <html className="scroll-smooth">
       <head>
         <title>Shashank Ranjan</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,6 +15,6 @@ export default function Home() {
         </main>
         <Footer />
       </body>
-    </>
+    </html>
   );
 }
