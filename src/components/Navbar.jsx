@@ -17,7 +17,7 @@ const navLink = [
     },
     {
         title: "Contact",
-        path: "#contact",
+        path: "#footer",
     },
 ]
 

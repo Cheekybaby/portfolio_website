@@ -24,7 +24,7 @@ const Herosection = () => {
 ]
     return (
         <div>
-            <div className="flex flex-col items-center justify-center h-1/2 lg:h-screen lg:pt-14 border-white-800 border-b">
+            <div className="flex flex-col items-center justify-center h-1/2 lg:h-screen lg:pt-14">
                 <h1 className="text-3xl lg:text-5xl text-[--color] pt-20 font-bold">Hello, I am Shashank Ranjan</h1>
                 <p className="pt-5 lg:mt-8 text-[--hovercolor] w-5/6 text-center lg:w-1/4">I am a <strong>Fullstack Developer</strong>, a <strong>Data Analyst</strong>, and a <strong>Machine Learning Enthusiast</strong></p>
                 <div id="socials" className="pt-5 lg:mt-8">
@@ -43,13 +43,14 @@ const Herosection = () => {
                     </ul>
                 </div>
                 <div className="pb-32 lg:pb-14">
-                    <button className="mt-8 lg:mt-10 bg-[#a9a8a894] text-[--color] w-32 h-10 rounded font-semibold hover:bg-[--background] hover:text-[--hovercolor] transition ease-in-out hover:translate-y-1 hover:scale-110" href={"#projects"}>Projects</button>
+                    <Link href="#projects">
+                        <button className="mt-8 lg:mt-10 bg-[#a9a8a894] text-[--color] w-32 h-10 rounded font-semibold hover:bg-[--hovercolor] hover:text-[--background] transition ease-in-out hover:-translate-y-1 hover:scale-110">Projects</button>
+                    </Link>
                 </div>
                 <div className="pb-4">
                     <Link href="#about">
                         <RiScrollToBottomLine className="animate-bounce " size={28} />
-                    </Link>
-                    
+                    </Link>                    
                 </div>
             </div>
         </div>

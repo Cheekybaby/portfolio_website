@@ -1,17 +1,17 @@
 import Skills from "./Skills";
-
+import Link from "next/link";
 const skill = [
-    "HTML",
-    "CSS",
-    "JS",
+    "HTML/CSS",
+    "JavaScript",
     "Python",
+    "C++",
+    "Golang",
     "React",
     "Next.js",
     "TailwindCSS",
     "Node.js",
     "Express.js",
     "MongoDB",
-    "PostgreSQL",
     "Git",
     "GitHub",
 ]
@@ -39,7 +39,9 @@ const About = () => {
                         I am open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches 
                         my skills and experience then do not hesitate to contact me.
                     </p>
-                    <button href={"#contact"} className="mt-8 bg-[#a9a8a894] text-[--color] w-32 h-10 rounded font-semibold hover:bg-[--background] hover:text-[--hovercolor] hover:-translate-y-1">Contact Me</button>
+                    <Link href="#footer">
+                        <button href="#footer" className="mt-8 text-[--color] w-32 h-10 rounded font-semibold bg-[--background] hover:bg-[--hovercolor] hover:text-[--background] transition ease-in-out hover:-translate-y-1 hover:scale-110">Contact Me</button>
+                    </Link>
                 </div>
                 <div>
                     <h2 className="font-semibold text-3xl border-white-800 border-b pb-4 w-48">My Skills </h2>

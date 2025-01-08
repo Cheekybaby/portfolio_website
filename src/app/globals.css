@@ -23,7 +23,7 @@ body {
 }
 
 .navhover {
-  @apply transition ease-in-out delay-100 hover:translate-y-1 
+  @apply transition ease-in-out delay-100 hover:-translate-y-1 
           hover:scale-110 hover:text-[--hovercolor];
 }
 
@@ -32,5 +32,5 @@ body {
 }
 
 .footer {
-  @apply flex flex-col items-center justify-center bg-[#dad2d2ad];
+  @apply flex flex-col place-items-center bg-[#dad2d2ad] h-2/3 py-10;
 }

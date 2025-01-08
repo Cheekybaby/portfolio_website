@@ -22,7 +22,8 @@ const Footer = () => {
         },
     ]
     return (
-        <div className="footer">
+        <div className="footer" id="footer">
+            <div className="text-xl lg:text-3xl text-[--color] font-semibold">Contact Me!</div>
             <div id="socials" className="pt-5 lg:m-8">
                 <ul className="flex pt-4 pb-4 md:p-0 flex-row">
                     {
