@@ -27,7 +27,7 @@ export default function Navbar() {
             <div className="flex flex-row w-2/3 items-center">
                 <Link href={"/"} className="text-2xl lg:text-3xl font-semibold text-[--color] mx-2 lg:mx-6 navhover">Shashank Ranjan</Link>
             </div>
-            <div className="flex flex-row w-1/4 items-center justify-end">
+            <div className="flex flex-row w-1/4 items-center justify-end max-sm:hidden">
                 <ul className="flex flex-row justify-between">
                     {
                         navLink.map((link, index) => (
